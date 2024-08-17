@@ -1,0 +1,213 @@
+ul li a{
+    font-family: "Lilita One", sans-serif;
+    color: white;
+ }
+ h2{
+   font-family: "Architects Daughter", cursive;
+   color: white;
+   letter-spacing: 3px;
+ }
+ h1{
+   font-family: "Bungee Shade", sans-serif;
+   font-weight: 400;
+   text-shadow: 2px 2px rgb(255, 255, 255);
+ }
+ 
+ .input-container {
+     width: 220px;
+     position: relative;
+   }
+   
+   .icon {
+     position: absolute;
+     right: 10px;
+     top: calc(50% + 5px);
+     transform: translateY(calc(-50% - 5px));
+   }
+   
+   .input {
+     width: 100%;
+     height: 40px;
+     padding: 10px;
+     transition: .2s linear;
+     border: 2.5px solid black;
+     font-size: 14px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+   }
+   
+   .input:focus {
+     outline: none;
+     border: 0.5px solid black;
+     box-shadow: -5px -5px 0px rgb(0, 0, 0);
+   }
+   
+   .input-container:hover > .icon {
+     animation: anim 1s linear infinite;
+   }
+   
+   @keyframes anim {
+     0%,
+     100% {
+       transform: translateY(calc(-50% - 5px)) scale(1);
+     }
+   
+     50% {
+       transform: translateY(calc(-50% - 5px)) scale(1.1);
+     }
+   }
+   .food-options {
+     display: flex;
+     justify-content: space-around;
+     gap: 80px;
+     padding: 20px;
+     margin-right: 90px;
+     margin: 30px;
+ }
+ 
+ .food-item {
+     text-align: center;
+     width: 100px;
+ }
+ .food-item img{
+   margin-right: 90px;
+ 
+ } 
+ 
+ .food-item p {
+   margin-left: 70px;
+     margin-top: 5px;
+     font-family: "Junge", cursive;
+ 
+ }
+ .zoom {
+   transition: transform .2s;
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+ }
+ 
+ .zoom:hover {
+   -ms-transform: scale(1.1); /* IE 9 */
+   -webkit-transform: scale(1.1); /* Safari 3-8 */
+   transform: scale(1.1); 
+ }
+ h5{
+   font-family: "Courgette", cursive;
+ }
+ body,html {
+   height: 110%;
+ }
+ 
+ /* The hero image */
+ .hero-image {
+ /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+ background-image: linear-gradient(rgba(82, 82, 82, 0.575), rgba(0, 0, 0, 0.548)), url("https://gallerybistroportmoody.com/wp-content/uploads/2022/11/web-banner-Top-Three-Restaurant-Trends.jpg");
+ 
+ /* Set a specific height */
+ height: 50%;
+ 
+ /* Position and center the image to scale nicely on all screens */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ }
+ .hero-text {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+ }
+ .hero-text p{
+   font-family: "La Belle Aurore", cursive;
+   font-weight: 400;
+   letter-spacing: 4px;
+ }
+ /* From Uiverse.io by andrew-demchenk0 */ 
+ .rating:not(:checked) > input {
+   position: absolute;
+   appearance: none;
+ }
+ 
+ .rating:not(:checked) > label {
+   float: right;
+   cursor: pointer;
+   font-size: 30px;
+   color: #666;
+ }
+ 
+ .rating:not(:checked) > label:before {
+   content: '★';
+ }
+ 
+ .rating > input:checked + label:hover,
+ .rating > input:checked + label:hover ~ label,
+ .rating > input:checked ~ label:hover,
+ .rating > input:checked ~ label:hover ~ label,
+ .rating > label:hover ~ input:checked ~ label {
+   color: #e58e09;
+ }
+ 
+ .rating:not(:checked) > label:hover,
+ .rating:not(:checked) > label:hover ~ label {
+   color: #ff9e0b;
+ }
+ 
+ .rating > input:checked ~ label {
+   color: #ffa723;
+ }
+ h3{
+   font-family: "Changa One", sans-serif;
+   font-weight: 400;
+ }
+ p{
+   font-family: "Dancing Script", cursive;
+ }
+ .col1{
+   border-radius: 21px;
+   background: linear-gradient(145deg, #fdff6d, #f0f0f0);
+   box-shadow:  14px 14px 6px #000000,
+                -14px -14px 6px #ffffff;
+   font-family: "NTR", sans-serif;
+   text-align: justify;
+   margin: 30px;
+   color: black;
+   padding: 40px;
+   font-family: "Marck Script", cursive;
+ }
+ .round img{
+   box-shadow: 14px 14px 6px black ;
+   border-radius: 50%;
+ }
+ .leader{
+   display: flex;
+   justify-content: center;
+ }
+ .person img{
+   border-radius: 30%;
+   padding: 30px;
+ }
+ .bg{
+   background: linear-gradient(145deg, #fdff6d, #f0f0f0);
+ }
+ body,html {
+   height: 100%;
+ }
+ .back{
+   background-image: linear-gradient(rgba(107, 105, 105, 0.575), rgba(136, 132, 132, 0.548)), url("https://img.freepik.com/premium-photo/food-packaging-yellow-background-quarantine-food-delivery-home-flatlay-banner-with-copyspace_168091-173.jpg");
+ 
+ /* Position and center the image to scale nicely on all screens */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ }
+ footer{
+   background-color: #000000;
+ }
+ h4{
+   font-family: "Montaga", serif;
+ }
